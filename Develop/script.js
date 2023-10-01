@@ -12,7 +12,7 @@ var upperAlphaArray = alphaArray.map(function (x) {
 });
 //console.log(upperAlphaArray);
 
-var charArray = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"];
+var charArray = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~".split("");
 //console.log(charArray);
 
 
@@ -52,7 +52,7 @@ function writePassword() {
   }
 
   var passwordString = password.join('');
-  console.log(passwordString);
+  //console.log(passwordString);
 
   //var password = generatePassword();
    var passwordText = document.querySelector("#password");
